@@ -1,0 +1,1 @@
+2023/07/14 16:22:03  DENY  open	/home/sixqaq/protect_ip_file/test/test_white_list.txt			exe:[/usr/bin/cat  18770]

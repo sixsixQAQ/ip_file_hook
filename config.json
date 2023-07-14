@@ -1,0 +1,50 @@
+{
+    "file_black_list": [
+        {
+            "file": "/home/sixqaq/protect_ip_file/test/test_black_list.txt",
+            "exe": [
+                "/home/sixqaq/protect_ip_file/test/deny_1",
+                "/home/sixqaq/protect_ip_file/test/deny_2",
+                "/home/sixqaq/protect_ip_file/test/deny_3",
+                "/usr/bin/gedit",
+                "/usr/bin/vim",
+                "/software/pkg/vnote"
+            ]
+        }
+    ],
+    "file_white_list": [
+        {
+            "file": "/home/sixqaq/protect_ip_file/test/test_white_list.txt",
+            "exe": [
+                "/home/sixqaq/protect_ip_file/test/allow_1",
+                "/home/sixqaq/protect_ip_file/test/allow_2",
+                "/home/sixqaq/protect_ip_file/test/allow_3",
+                "/usr/bin/cat",
+                "/usr/bin/vim",
+                "/usr/bin/cp"
+            ]
+        }
+    ],
+    "ip_black_list": [
+        {
+            "ip": "39.156.66.10",
+            "exe": [
+                "/home/sixqaq/protect_ip_file/test/deny_1",
+                "/home/sixqaq/protect_ip_file/test/deny_2",
+                "/home/sixqaq/protect_ip_file/test/deny_3"
+            ]
+        }
+    ],
+    "ip_white_list": [
+        {
+            "ip": "106.13.8.123",
+            "exe": [
+                "/home/sixqaq/protect_ip_file/test/allow_1",
+                "/home/sixqaq/protect_ip_file/test/allow_2",
+                "/home/sixqaq/protect_ip_file/test/allow_3",
+                "/usr/bin/ping",
+                "/usr/bin/ssh"
+            ]
+        }
+    ]
+}

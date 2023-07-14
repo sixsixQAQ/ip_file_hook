@@ -1,0 +1,8 @@
+#pragma once
+
+#include <stdbool.h>
+
+#define CONFIG_FILE_PATH    "@CONFIG_FILE_PATH@"
+#define LOG_FILE_PATH       "@LOG_FILE_PATH@"
+#define ENABLE_ALLOW_LOG    @ENABLE_ALLOW_LOG@
+#define ENABLE_DENY_LOG     @ENABLE_DENY_LOG@
